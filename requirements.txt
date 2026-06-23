@@ -8,3 +8,5 @@ greenlet
 groq
 streamlit
 requests
+pytest
+pytest-asyncio
