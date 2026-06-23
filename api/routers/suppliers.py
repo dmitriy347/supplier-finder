@@ -3,10 +3,10 @@ from typing import Optional
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from api.schemas import SupplierSearchResponse
+from api.schemas import SupplierSearchResponse, FiltersOut
 from database import get_db
 from services.ai_recommender import get_ai_recommendation
-from services.suppliers_service import search_suppliers, get_top_candidates
+from services.suppliers_service import search_suppliers, get_top_candidates, get_available_filters
 
 router = APIRouter(prefix="/api/suppliers", tags=["suppliers"])
 
@@ -29,3 +29,9 @@ async def get_suppliers(
         "suppliers": suppliers,
         "ai_recommendation": ai_result.model_dump() if ai_result else None,
     }
+
+
+@router.get("/filters", response_model=FiltersOut)
+async def get_filters(db: AsyncSession = Depends(get_db)):
+    """Эндпоинт для получения доступных фильтров (категории и регионы) для поиска поставщиков."""
+    return await get_available_filters(db)

@@ -59,3 +59,9 @@ class SupplierSearchResponse(BaseModel):
     """
     suppliers: list[SupplierOut]
     ai_recommendation: Optional[AIRecommendationOut] = None
+
+
+class FiltersOut(BaseModel):
+    """Схема ответа API для фильтров. Содержит уникальные категории и регионы поставщиков."""
+    categories: list[str]
+    regions: list[str]
