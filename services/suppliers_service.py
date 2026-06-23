@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-from sqlalchemy import select
+from sqlalchemy import select, distinct
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from models.supplier import Supplier
@@ -56,3 +56,17 @@ def get_top_candidates(suppliers: list[Supplier], limit: int = 5) -> list[Suppli
     Если поставщиков <5, возвращает всех.
     """
     return suppliers[:limit]
+
+
+async def get_available_filters(session: AsyncSession) -> dict:
+    """Возвращает уникальные значения category и region из БД."""
+    categories_result = await session.execute(
+        select(distinct(Supplier.category)).order_by(Supplier.category)
+    )
+    regions_result = await session.execute(
+        select(distinct(Supplier.region)).order_by(Supplier.region)
+    )
+    return {
+        "categories": list(categories_result.scalars().all()),
+        "regions": list(regions_result.scalars().all()),
+    }

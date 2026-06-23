@@ -5,3 +5,6 @@ aiosqlite
 pydantic
 python-dotenv
 greenlet
+groq
+streamlit
+requests
