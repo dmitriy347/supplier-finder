@@ -22,11 +22,12 @@ def _extract_min_price(price_range: Optional[str]) -> float:
 
 def _sort_key(supplier: Supplier) -> tuple:
     """
-    Сортировка: сначала по наличию сертификата, затем по возрастанию цены.
+    Сортировка: сначала по наличию сертификата, затем по возрастанию цены,
+    затем по имени (при равенстве первых двух критериев).
     'not has_certificates' - превращает True в 0 (есть сертификат), а False в 1 (нет сертификата),
     чтобы при сортировке сертифицированные поставщики были первыми.
     """
-    return (not supplier.has_certificates, _extract_min_price(supplier.price_range))
+    return (not supplier.has_certificates, _extract_min_price(supplier.price_range), supplier.name)
 
 
 async def search_suppliers(

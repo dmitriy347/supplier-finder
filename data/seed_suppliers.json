@@ -48,6 +48,42 @@
     "notes": "импортные ингредиенты"
   },
   {
+    "name": "МосПродукт",
+    "category": "Ингредиенты",
+    "region": "Москва",
+    "contacts": "+7 495 333-22-11",
+    "website": "mosprodukt.ru",
+    "min_order_qty": "30 кг",
+    "price_range": "310-370 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "специализация — крупы, бобовые, орехи"
+  },
+  {
+    "name": "СвежийОпт",
+    "category": "Ингредиенты",
+    "region": "Москва",
+    "contacts": "opt@svezhiy.ru",
+    "website": "svezhiy-opt.ru",
+    "min_order_qty": "40 кг",
+    "price_range": "330-400 ₽/кг",
+    "has_certificates": false,
+    "delivery_conditions": "2 дня",
+    "notes": "овощи и зелень, работают с фермерами Подмосковья"
+  },
+  {
+    "name": "ПрайМФуд",
+    "category": "Ингредиенты",
+    "region": "Москва",
+    "contacts": "+7 916 777-00-11",
+    "website": "primefood-msk.ru",
+    "min_order_qty": "75 кг",
+    "price_range": "360-430 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1 день, холодовая цепь",
+    "notes": "мясо и птица, контракты с крупными птицефабриками"
+  },
+  {
     "name": "СПб Опт Продукт",
     "category": "Ингредиенты",
     "region": "Санкт-Петербург",
@@ -72,6 +108,30 @@
     "notes": "молодая компания, гибкие условия"
   },
   {
+    "name": "СевероЗападАгро",
+    "category": "Ингредиенты",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 400-55-66",
+    "website": "szagro.ru",
+    "min_order_qty": "50 кг",
+    "price_range": "310-370 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "ленинградские фермы, молочная группа и зелень"
+  },
+  {
+    "name": "БалтФудОпт",
+    "category": "Ингредиенты",
+    "region": "Санкт-Петербург",
+    "contacts": "bfo@balt-food.ru",
+    "website": "balt-food.ru",
+    "min_order_qty": "100 кг",
+    "price_range": "275-340 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "3 дня, крупные партии",
+    "notes": "импортные специи и сухофрукты"
+  },
+  {
     "name": "Татснаб Продукт",
     "category": "Ингредиенты",
     "region": "Казань",
@@ -82,6 +142,30 @@
     "has_certificates": true,
     "delivery_conditions": "по РТ, 2-3 дня",
     "notes": "собственное производство"
+  },
+  {
+    "name": "КамаАгроСнаб",
+    "category": "Ингредиенты",
+    "region": "Казань",
+    "contacts": "+7 843 200-11-22",
+    "website": "kama-agro.ru",
+    "min_order_qty": "50 кг",
+    "price_range": "260-320 ₽/кг",
+    "has_certificates": false,
+    "delivery_conditions": "2-3 дня",
+    "notes": "зерновые и бобовые, местные поля"
+  },
+  {
+    "name": "ВолгаФудТрейд",
+    "category": "Ингредиенты",
+    "region": "Казань",
+    "contacts": "vft@volga-food.ru",
+    "website": "volga-food.ru",
+    "min_order_qty": "80 кг",
+    "price_range": "285-345 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "2 дня",
+    "notes": "масла, соусы, консервация"
   },
   {
     "name": "Кулинария Премиум",
@@ -108,6 +192,30 @@
     "notes": "хлеб и выпечка, без консервантов"
   },
   {
+    "name": "МосКитchen",
+    "category": "Готовая продукция",
+    "region": "Москва",
+    "contacts": "+7 916 900-44-55",
+    "website": "moskitchen.ru",
+    "min_order_qty": "20 кг",
+    "price_range": "520-640 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1 день",
+    "notes": "азиатская и паназиатская кухня, суши-заготовки"
+  },
+  {
+    "name": "СтоловаяОпт",
+    "category": "Готовая продукция",
+    "region": "Москва",
+    "contacts": "info@stolovaya-opt.ru",
+    "website": "stolovaya-opt.ru",
+    "min_order_qty": "50 кг",
+    "price_range": "380-460 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "классическая русская кухня, большие объёмы"
+  },
+  {
     "name": "СПб Деликатес",
     "category": "Готовая продукция",
     "region": "Санкт-Петербург",
@@ -120,6 +228,30 @@
     "notes": "премиальные закуски и салаты"
   },
   {
+    "name": "НевскийПит",
+    "category": "Готовая продукция",
+    "region": "Санкт-Петербург",
+    "contacts": "pit@nevskiy-pit.ru",
+    "website": "nevskiy-pit.ru",
+    "min_order_qty": "30 кг",
+    "price_range": "490-580 ₽/кг",
+    "has_certificates": false,
+    "delivery_conditions": "2 дня",
+    "notes": "европейская кухня, шеф-заготовки"
+  },
+  {
+    "name": "БалтийскийВкус",
+    "category": "Готовая продукция",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 500-66-77",
+    "website": "balt-vkus.ru",
+    "min_order_qty": "15 кг",
+    "price_range": "550-670 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1 день",
+    "notes": "рыбные блюда и морепродукты"
+  },
+  {
     "name": "Казан Гото",
     "category": "Готовая продукция",
     "region": "Казань",
@@ -130,6 +262,30 @@
     "has_certificates": false,
     "delivery_conditions": "3 дня",
     "notes": "национальная и готовая кухня"
+  },
+  {
+    "name": "ТатарКухня",
+    "category": "Готовая продукция",
+    "region": "Казань",
+    "contacts": "+7 843 100-22-33",
+    "website": "tatar-kuhnya.ru",
+    "min_order_qty": "20 кг",
+    "price_range": "430-510 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "2 дня",
+    "notes": "эчпочмаки, чак-чак, готовые татарские блюда"
+  },
+  {
+    "name": "ВолгаБистро",
+    "category": "Готовая продукция",
+    "region": "Казань",
+    "contacts": "vb@volga-bistro.ru",
+    "website": "volga-bistro.ru",
+    "min_order_qty": "25 кг",
+    "price_range": "370-440 ₽/кг",
+    "has_certificates": false,
+    "delivery_conditions": "2-3 дня",
+    "notes": "простые блюда для корпоративного питания"
   },
   {
     "name": "ПакСервис",
@@ -156,6 +312,30 @@
     "notes": "большой выбор тары для доставки"
   },
   {
+    "name": "МосТара",
+    "category": "Упаковка",
+    "region": "Москва",
+    "contacts": "+7 495 600-33-44",
+    "website": "mostara.ru",
+    "min_order_qty": "500 шт",
+    "price_range": "18-28 ₽/шт",
+    "has_certificates": true,
+    "delivery_conditions": "2-3 дня",
+    "notes": "брендированная упаковка, печать логотипа"
+  },
+  {
+    "name": "ФудБокс",
+    "category": "Упаковка",
+    "region": "Москва",
+    "contacts": "hello@foodbox-pack.ru",
+    "website": "foodbox-pack.ru",
+    "min_order_qty": "1500 шт",
+    "price_range": "12-20 ₽/шт",
+    "has_certificates": true,
+    "delivery_conditions": "3-4 дня",
+    "notes": "контейнеры для доставки еды, крышки и вкладыши"
+  },
+  {
     "name": "Балтийская Упаковка",
     "category": "Упаковка",
     "region": "Санкт-Петербург",
@@ -168,6 +348,54 @@
     "notes": "сертифицированная пищевая упаковка"
   },
   {
+    "name": "НевскийПак",
+    "category": "Упаковка",
+    "region": "Санкт-Петербург",
+    "contacts": "pack@nevskiy-pak.ru",
+    "website": "nevskiy-pak.ru",
+    "min_order_qty": "1000 шт",
+    "price_range": "14-22 ₽/шт",
+    "has_certificates": false,
+    "delivery_conditions": "3-5 дней",
+    "notes": "крафтовая упаковка, бумажные пакеты"
+  },
+  {
+    "name": "ЭкоПакСПб",
+    "category": "Упаковка",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 700-11-22",
+    "website": "ecopak-spb.ru",
+    "min_order_qty": "800 шт",
+    "price_range": "16-26 ₽/шт",
+    "has_certificates": true,
+    "delivery_conditions": "2-3 дня",
+    "notes": "биоразлагаемые материалы, сертификат FSC"
+  },
+  {
+    "name": "СтройПак СПб",
+    "category": "Упаковка",
+    "region": "Санкт-Петербург",
+    "contacts": "info@stroypak-spb.ru",
+    "website": "stroypak-spb.ru",
+    "min_order_qty": "2000 шт",
+    "price_range": "9-15 ₽/шт",
+    "has_certificates": false,
+    "delivery_conditions": "5-7 дней",
+    "notes": "бюджетная одноразовая тара, большие объёмы"
+  },
+  {
+    "name": "БалтКрафт",
+    "category": "Упаковка",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 800-99-00",
+    "website": "balt-kraft.ru",
+    "min_order_qty": "1200 шт",
+    "price_range": "13-21 ₽/шт",
+    "has_certificates": true,
+    "delivery_conditions": "3 дня",
+    "notes": "специализация — упаковка для пиццы и бургеров"
+  },
+  {
     "name": "ТатПак",
     "category": "Упаковка",
     "region": "Казань",
@@ -178,5 +406,161 @@
     "has_certificates": false,
     "delivery_conditions": "5 дней",
     "notes": "доступные цены, простая тара"
+  },
+  {
+    "name": "КазаньПак",
+    "category": "Упаковка",
+    "region": "Казань",
+    "contacts": "+7 843 500-33-44",
+    "website": "kazanpak.ru",
+    "min_order_qty": "500 шт",
+    "price_range": "12-19 ₽/шт",
+    "has_certificates": true,
+    "delivery_conditions": "3-4 дня",
+    "notes": "фасовочные пакеты и ланч-боксы"
+  },
+  {
+    "name": "ВолгаКонтейнер",
+    "category": "Упаковка",
+    "region": "Казань",
+    "contacts": "vc@volga-container.ru",
+    "website": "volga-container.ru",
+    "min_order_qty": "1500 шт",
+    "price_range": "8-14 ₽/шт",
+    "has_certificates": false,
+    "delivery_conditions": "4-6 дней",
+    "notes": "пластиковые контейнеры для заморозки и доставки"
+  },
+  {
+    "name": "АкваМосква",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "+7 495 200-10-20",
+    "website": "akva-msk.ru",
+    "min_order_qty": "50 л",
+    "price_range": "40-65 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "вода питьевая и газированная, крупнейший московский дистрибьютор"
+  },
+  {
+    "name": "СофтДринкОпт",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "sd@softdrink-opt.ru",
+    "website": "softdrink-opt.ru",
+    "min_order_qty": "100 л",
+    "price_range": "55-90 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "2 дня",
+    "notes": "соки, морсы, лимонады оптом"
+  },
+  {
+    "name": "МосНапитки",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "+7 916 400-55-66",
+    "website": "mos-napitki.ru",
+    "min_order_qty": "30 л",
+    "price_range": "70-110 ₽/л",
+    "has_certificates": false,
+    "delivery_conditions": "1-2 дня",
+    "notes": "крафтовые лимонады и авторские напитки"
+  },
+  {
+    "name": "ЧайКофеОпт",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "info@chaykafe-opt.ru",
+    "website": "chaykafe-opt.ru",
+    "min_order_qty": "10 кг",
+    "price_range": "800-1500 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "2-3 дня",
+    "notes": "чай листовой и кофе в зёрнах, прямые контракты с плантациями"
+  },
+  {
+    "name": "ФрешДринк МСК",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "+7 499 100-77-88",
+    "website": "freshdrinkmsk.ru",
+    "min_order_qty": "50 л",
+    "price_range": "60-95 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "1 день",
+    "notes": "свежевыжатые соки, холодовая цепь"
+  },
+  {
+    "name": "ЭнергоОпт",
+    "category": "Напитки",
+    "region": "Москва",
+    "contacts": "sales@energo-opt.ru",
+    "website": "energo-opt.ru",
+    "min_order_qty": "200 л",
+    "price_range": "45-75 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "2-3 дня, крупный опт",
+    "notes": "энергетики и функциональные напитки, крупные сети"
+  },
+  {
+    "name": "НевскийАква",
+    "category": "Напитки",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 200-33-44",
+    "website": "nevsky-akva.ru",
+    "min_order_qty": "50 л",
+    "price_range": "38-60 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "вода из карельских источников"
+  },
+  {
+    "name": "БалтДринк",
+    "category": "Напитки",
+    "region": "Санкт-Петербург",
+    "contacts": "bd@balt-drink.ru",
+    "website": "balt-drink.ru",
+    "min_order_qty": "80 л",
+    "price_range": "50-80 ₽/л",
+    "has_certificates": false,
+    "delivery_conditions": "2-3 дня",
+    "notes": "импортные безалкогольные напитки"
+  },
+  {
+    "name": "КофеСПб",
+    "category": "Напитки",
+    "region": "Санкт-Петербург",
+    "contacts": "+7 812 900-11-22",
+    "website": "kofe-spb.ru",
+    "min_order_qty": "5 кг",
+    "price_range": "1200-2000 ₽/кг",
+    "has_certificates": true,
+    "delivery_conditions": "1-2 дня",
+    "notes": "specialty-кофе, обжарка на месте"
+  },
+  {
+    "name": "ПитерФреш",
+    "category": "Напитки",
+    "region": "Санкт-Петербург",
+    "contacts": "pf@piter-fresh.ru",
+    "website": "piter-fresh.ru",
+    "min_order_qty": "30 л",
+    "price_range": "65-100 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "1 день",
+    "notes": "холодные прессованные соки и смузи"
+  },
+  {
+    "name": "ВолгаВода",
+    "category": "Напитки",
+    "region": "Казань",
+    "contacts": "+7 843 300-44-55",
+    "website": "volga-voda.ru",
+    "min_order_qty": "100 л",
+    "price_range": "32-50 ₽/л",
+    "has_certificates": true,
+    "delivery_conditions": "2-3 дня",
+    "notes": "единственный местный поставщик питьевой воды в Казани"
   }
 ]
