@@ -43,11 +43,25 @@ except requests.RequestException:
 
 col1, col2 = st.columns(2)
 with col1:
-    category = st.selectbox("Категория", filters["categories"])
+    category = st.selectbox(
+        "Категория",
+        filters["categories"],
+        index=None,
+        placeholder="Выберите категорию",
+    )
 with col2:
-    region = st.selectbox("Регион", filters["regions"])
+    region = st.selectbox(
+        "Регион",
+        filters["regions"],
+        index=None,
+        placeholder="Выберите регион",
+    )
 
 if st.button("Найти", type="primary"):
+    if not category or not region:
+        st.warning("Пожалуйста, выберите категорию и регион.")
+        st.stop()
+
     try:
         data = fetch_suppliers(category, region)
     except requests.RequestException:
