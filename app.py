@@ -18,8 +18,9 @@ def fetch_filters() -> dict:
     """
     Возвращает уникальные значения категорий и регионов из backend API.
     Кэшируется на 60 секунд.
+    Таймаут увеличен под "холодный старт" backend на Render free tier (просыпание после простоя занимает 50 секунд).
     """
-    response = requests.get(f"{API_URL}/api/suppliers/filters", timeout=10)
+    response = requests.get(f"{API_URL}/api/suppliers/filters", timeout=60)
     response.raise_for_status()
     return response.json()
 
@@ -29,14 +30,15 @@ def fetch_suppliers(category: str, region: str) -> dict:
     response = requests.get(
         f"{API_URL}/api/suppliers/",
         params={"category": category, "region": region},
-        timeout=30,
+        timeout=60,
     )
     response.raise_for_status()
     return response.json()
 
 
 try:
-    filters = fetch_filters()
+    with st.spinner("Подключаемся к серверу… при первом обращении это может занять до минуты"):
+        filters = fetch_filters()
 except requests.RequestException:
     st.error("Не удалось подключиться к backend. Убедитесь, что сервер запущен (`uvicorn api.main:app`).")
     st.stop()
