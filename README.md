@@ -12,8 +12,8 @@
 
 ## Демо
 
-- **Frontend (Streamlit Community Cloud):** _добавлю ссылку после деплоя_
-- **Backend API (Render):** _добавлю ссылку после деплоя_
+- **Frontend (Streamlit Community Cloud):** https://supplier-finder-t.streamlit.app/
+- **Backend API (Render):** https://supplier-finder-yqqn.onrender.com/docs _(free-тариф, при первом обращении после простоя backend может "просыпаться" до минуты)_
 
 ## Зачем это нужно
 
